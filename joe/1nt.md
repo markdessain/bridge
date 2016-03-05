@@ -1,12 +1,8 @@
-# Mark + Joe
+# Stayman
+===
 
 
-## Non-Competitive
-
-### 1NT
-
-#### Stayman 2D
-=====
+## 2D
 
 ###### Auction 
 
@@ -27,8 +23,7 @@
 
 
 
-#### Stayman 2H
-=====
+## 2H
 
 ###### Auction 
 
@@ -50,8 +45,7 @@
 
 
 
-#### Stayman 2S
-=====
+## 2S
 
 ###### Auction 
 
@@ -72,9 +66,11 @@
 | 4NT    | 18+    | Slam   | Roman Keycard   | Agrees Spades as trumps             |
 
 
+# Transfer
+===
 
-#### Transfer 2H
-=====
+
+## 2H
 
 ###### Auction 
 
@@ -98,8 +94,7 @@
 
 
 
-#### Transfer 2S
-=====
+## 2S
 
 ###### Auction 
 
@@ -123,8 +118,7 @@
 
 
 
-#### Transfer Minors
-=====
+## Minors
 
 ###### Auction 
 
@@ -140,51 +134,3 @@
 | Pass   | 0 - 10 | Part   |                       |                                     |
 | 3D     | 0 - 10 | Part   |                       |                                     |
 
-
-## Competitive
-
-### Take out Doubles
-
-#### Responses No Interference
-=====
-
-###### Auction 
-
-| N   | S   | E   | W   |
-|-----|-----|-----|-----|
-| 1D  | x   | P   | ?   |
-
-###### Possible Bids
-
-| Bid    | Points | Level  | Response              | Comments                            |
-|--------|--------|--------|-----------------------|-------------------------------------|
-| Pass   |        |        |                       |                                     |
-| 1H     |        |        |                       |                                     |
-| 2H     |        |        |                       |                                     |
-| 2D     |        |        |                       |                                     |
-| 1NT    |        |        |                       |                                     |
-| 2NT    |        |        |                       |                                     |
-| 3NT    |        |        |                       |                                     |
-
-
-#### Responses Interference
-=====
-
-###### Auction 
-
-| N   | S   | E   | W   |
-|-----|-----|-----|-----|
-| 1D  | x   | 2D  | ?   |
-
-###### Possible Bids
-
-| Bid    | Points | Level  | Response              | Comments                            |
-|--------|--------|--------|-----------------------|-------------------------------------|
-| Pass   |        |        |                       |                                     |
-| 2H     |        |        |                       |                                     |
-| 3H     |        |        |                       |                                     |
-| 4H     |        |        |                       |                                     |
-| 3D     |        |        |                       |                                     |
-| 1NT    |        |        |                       |                                     |
-| 2NT    |        |        |                       |                                     |
-| 3NT    |        |        |                       |                                     |
