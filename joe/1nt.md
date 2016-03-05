@@ -15,7 +15,7 @@
 
 | Bid    | Points | Level  | Response   | Comments                                 |
 |--------|--------|--------|------------|------------------------------------------|
-| `Pass` | 0 - 10 | Part   |            | 4/4/4/1 hand `Not Agreed`                |
+| ~~Pass~~ | 0 - 10 | Part   |            | 4/4/4/1 hand `Not Agreed`                |
 | 2NT    | 11     | Invite | Pass / 3NT |                                          |
 | 3NT    | 12+    | Play   | Pass       |                                          |
 | 4NT    | 18+    | Slam   | Backwood   | No suit choosen, Standard Blackwood      |
@@ -36,7 +36,7 @@
 
 | Bid    | Points | Level  | Response        | Comments                            |
 |--------|--------|--------|-----------------|-------------------------------------|
-| `Pass` | 0 - 10 | Part   |                 | 4/4/4/1 hand `Not Agreed`           |
+| ~~Pass~~ | 0 - 10 | Part   |                 | 4/4/4/1 hand `Not Agreed`           |
 | 2NT    | 11     | Invite | Pass / 3NT / 4S | Shows 4 Spades                      |
 | 3H     | 11     | Invite | Pass / 3NT / 4H |                                     |
 | 3NT    | 12+    | Game   | Pass / 4S       | Shows 4 Spades                      |
@@ -58,7 +58,7 @@
 
 | Bid    | Points | Level  | Response        | Comments                            |
 |--------|--------|--------|-----------------|-------------------------------------|
-| `Pass` | 0 - 10 | Part   |                 | 4/4/4/1 hand `Not Agreed`           |
+| ~~Pass~~ | 0 - 10 | Part   |                 | 4/4/4/1 hand `Not Agreed`           |
 | 2NT    | 11     | Invite | Pass / 3NT / 4H | Shows 4 Hearts                      |
 | 3S     | 11     | Invite | Pass / 3NT / 4S |                                     |
 | 3NT    | 12+    | Game   | Pass / 4S       | Shows 4 Spades                      |
@@ -112,7 +112,7 @@
 | 3H     | 12+    | Game   | 3NT / 4H / 4S         | Shows 5 Spades and 4 Hearts             |
 | 3S     | 11     | Invite | Pass 3NT / 4S         | Shows 6 Spades                          |
 | 3NT    | 12+    | Game   | Pass / 4S             |                                         |
-| `4H`   | 12+    | Game   | Pass / 4S             | Shows 5 Spade and 5 Hearts `Not Agreed` |
+| ~~4H~~   | 12+    | Game   | Pass / 4S             | Shows 5 Spade and 5 Hearts `Not Agreed` |
 | 4S     | 12+    | Play   | Pass                  |                                         |
 | 4NT    | 18+    | Slam   | Roman Keycard         | Agrees Hearts as trumps                 |
 

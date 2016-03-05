@@ -22,7 +22,6 @@
 
 
 ## Responses Interference
-
 ###### Auction 
 
 | N   | S   | E   | W   |
