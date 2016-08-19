@@ -3,7 +3,7 @@ Hello Everyone,
 
 #### {name} Bridge Group
 
-Just a reminder about the bridge this {day} at _{venue}_. As usual it will continue to be a gentle duplicate game. I will be avalible throughout to answer any questions if you get stuck.
+Just a reminder about the bridge this {day} at _{venue}_. As usual it will continue to be a gentle duplicate game. I will be available throughout to answer any questions if you get stuck.
 
 We will play about 16 boards and there should be roughly three to five tables.
 
