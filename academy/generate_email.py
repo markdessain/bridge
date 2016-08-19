@@ -25,9 +25,3 @@ if __name__ == '__main__':
 
     with open('emails/%s-%s.md' % (datetime.date.today(), args.template), 'w') as f:
         f.write(email)
-
-
-
-
-
-    print(template_params)
