@@ -1,8 +1,7 @@
 import datetime
-import constants
 import argparse
 
-
+import constants
 
 
 if __name__ == '__main__':

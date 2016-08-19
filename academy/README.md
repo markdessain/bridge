@@ -2,5 +2,5 @@
 ### Generate Emails
 
 ```
-python generate_email.py --template weekly_reminder --params date="Wednesday 24th August"
+python generate_email.py --template weekly_reminder --params day=Wednesday,date="24th August"
 ```
