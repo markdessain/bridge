@@ -10,9 +10,13 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 #### Details
 
 > Venue: Castle Holland Park - [website](https://www.castlehollandpark.co.uk/) / [map](https://goo.gl/maps/AabBbGnSKvq)
+
 > Date: Wednesday 24th August
+
 > Start: 19:15 (Bridge begins at 19:30)
+
 > End: 22:15
+
 > Director: Mark Dessain
 
 
