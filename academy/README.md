@@ -1,6 +1,13 @@
+# Academy Bridge Group
 
-### Generate Emails
+## Resources for mangaging the evening
 
-```
-python generate_email.py --template weekly_reminder --params day=Wednesday,date="24th August"
-```
+The resources are split into a few categories
+
+- Emails: An achieve of all emails sent out to the club members.
+- Templates: A collection of email templates that are sent out on a regular basis.
+- Scripts: Useful tools to speed up manual tasks.
+
+## Templates:
+
+- weekly_reminder.md
