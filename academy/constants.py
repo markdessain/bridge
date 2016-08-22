@@ -1,8 +1,8 @@
 from datetime import datetime, date, time, timedelta
 
-name = 'Holland Park / Academy'
+name = 'Holland Park / Academy / Castle'
 
-venue = 'Castle Holland Park'
+venue = 'The Castle Holland Park'
 venue_website = 'https://www.castlehollandpark.co.uk/'
 venue_map = 'https://goo.gl/maps/AabBbGnSKvq'
 
@@ -11,5 +11,3 @@ bridge_start = (datetime.combine(date.today(), start) + timedelta(minutes=15)).t
 end = time(22, 15)
 
 director = 'Mark Dessain'
-
-print(bridge_start)
