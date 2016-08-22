@@ -10,9 +10,13 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 #### Details
 
 > Venue: {venue} - [website]({venue_website}) / [map]({venue_map})
+
 > Date: {day} {date}
+
 > Start: {start.hour}:{start.minute} (Bridge begins at {bridge_start.hour}:{bridge_start.minute})
+
 > End: {end.hour}:{end.minute}
+
 > Director: {director}
 
 
