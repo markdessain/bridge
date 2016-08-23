@@ -3,7 +3,7 @@ Hello Everyone,
 
 #### {name} Bridge Group
 
-Just a quick reminder about the bridge this {day} at _{venue}_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout to answer any bridge related questions.
+Just a quick reminder about the bridge this _{day}_ at _{venue}_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
 
 Please feel free to attend even if you do not have a partner, we will make sure to pair you up with another player before we start.
 
@@ -16,6 +16,8 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 > Start: {start.hour}:{start.minute} (Bridge begins at {bridge_start.hour}:{bridge_start.minute})
 
 > End: {end.hour}:{end.minute}
+
+> Price: {price}
 
 > Director: {director}
 

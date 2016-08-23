@@ -1,21 +1,23 @@
 
 Hello Everyone,
 
-#### Holland Park / Academy / Castle Bridge Group
+#### Academy / Castle / Holland Park Bridge Group
 
-Just a quick reminder about the bridge this Wednesday at _The Castle Holland Park_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout to answer any bridge related questions.
+Just a quick reminder about the bridge this _Wednesday_ at _The Castle_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
 
 Please feel free to attend even if you do not have a partner, we will make sure to pair you up with another player before we start.
 
 #### Details
 
-> Venue: The Castle Holland Park - [website](https://www.castlehollandpark.co.uk/) / [map](https://goo.gl/maps/AabBbGnSKvq)
+> Venue: The Castle - [website](https://www.castlehollandpark.co.uk/) / [map](https://goo.gl/maps/AabBbGnSKvq)
 
 > Date: Wednesday 24th August
 
 > Start: 19:15 (Bridge begins at 19:30)
 
 > End: 22:15
+
+> Price: &pound;10
 
 > Director: Mark Dessain
 
