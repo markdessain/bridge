@@ -3,7 +3,7 @@ Hello Everyone,
 
 #### {name} Bridge Group
 
-Thank you everyone who attended the first game at the new venue, I hope everyone had an enjoyable evening. I would welcome your feedback and inital thoughts, please email me any comments you have.
+Thank you everyone who attended the first game at the new venue _{venue}_, I hope everyone had an enjoyable evening. I would welcome your feedback and inital thoughts, please email me any comments you have.
 
 The results for _{bridgewebs_results_title}_ are as follows:
 
