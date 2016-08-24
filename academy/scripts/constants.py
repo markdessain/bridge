@@ -12,3 +12,7 @@ end = time(22, 15)
 
 director = 'Mark Dessain'
 price = '&pound;10'
+
+bridgewebs_club = 'ruffclub'
+
+scoring_unit = '%'

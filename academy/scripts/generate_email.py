@@ -1,7 +1,46 @@
 import datetime
 import argparse
 
+import requests
+from bs4 import BeautifulSoup
+
 import constants
+
+
+def standard_email(template, template_params):
+    with open('templates/%s.md' % template, 'r') as f:
+        lines = ''.join(f.readlines())
+
+        email = lines.format(**template_params)
+
+    with open('emails/%s-%s.md' % (datetime.date.today(), template), 'w') as f:
+        f.write(email)
+
+
+def results_email(template, template_params):
+    r = requests.get('http://www.bridgewebs.com/cgi-bin/bwoi/bw.cgi?pid=display_rank&event=%s&club=%s' % (
+        template_params['session_id'],
+        template_params['bridgewebs_club']
+    ))
+    data = r.text
+    soup = BeautifulSoup(data, 'lxml')
+    results = soup.find(id='results_main')
+    table = results.find('table').find('table')
+
+    results = []
+
+    for pair in table.find_all('tr')[1:]:
+        row = pair.find_all('td')
+        results.append('|{}|{}{}|'.format(
+            row[2].find('div', class_='r_show').text,
+            row[5].text,
+            template_params['scoring_unit']
+        ))
+
+    template_params['results'] = '\n'.join(results)
+    template_params['bridgewebs_results_title'] = soup.find(id='result_title').find('span').text
+
+    standard_email(template, template_params)
 
 
 if __name__ == '__main__':
@@ -17,10 +56,9 @@ if __name__ == '__main__':
     template_params = defaults.copy()
     template_params.update(params)
 
-    with open('templates/%s.md' % args.template, 'r') as f:
-        lines = ''.join(f.readlines())
+    if args.template == 'results':
+        func = results_email
+    else:
+        func = standard_email
 
-        email = lines.format(**template_params)
-
-    with open('emails/%s-%s.md' % (datetime.date.today(), args.template), 'w') as f:
-        f.write(email)
+    func(args.template, template_params)
