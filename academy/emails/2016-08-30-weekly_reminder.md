@@ -11,7 +11,7 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 
 > Venue: The Castle - [website](https://www.castlehollandpark.co.uk/) / [map](https://goo.gl/maps/AabBbGnSKvq)
 
-> Date: Wednesday 31st August#
+> Date: Wednesday 31st August
 
 > Start: 19:15 (Bridge begins at 19:30)
 
