@@ -1,7 +1,7 @@
 
 Hello Everyone,
 
-#### {name} Bridge Group
+#### {name} Bridge Group Results
 
 The results for _{bridgewebs_results_title}_ are as follows:
 
