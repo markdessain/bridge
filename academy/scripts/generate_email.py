@@ -6,7 +6,6 @@ import requests
 from bs4 import BeautifulSoup
 
 import constants
-from google import get_service, create_draft, create_message
 
 
 def standard_email(template, template_params):
