@@ -10,6 +10,8 @@ start = time(19, 15)
 bridge_start = (datetime.combine(date.today(), start) + timedelta(minutes=15)).time()
 end = time(22, 15)
 
+date_format = '%a %d %b %Y'
+
 director = 'Mark Dessain'
 director_email = ''
 director_phone = ''

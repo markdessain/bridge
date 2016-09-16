@@ -62,14 +62,15 @@ def invoice_numbers():
         yield ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(15))
 
 
-def build_invoices(year, month, currency):
+def build_invoices(year, month):
     invoice_num_gen = invoice_numbers()
     data = get_income_data()
     table = create_pivot_table(data)
 
     report = data[(data.Year == year) & (data.Month == month)]
 
-    report['Date'] = report['Date'].apply(lambda d: d.strftime('%a %d %b %Y'))
+    report['Date'] = report['Date'].apply(lambda d: d.strftime(constants.date_format))
+    report['DisplayPrice'] = report['Price'].apply(lambda p: constants.currency + str(p))
 
     names = report['Name'].unique()
 
@@ -77,7 +78,8 @@ def build_invoices(year, month, currency):
         games = report[report.Name == name]
 
         summary = []
-        for index, row in games[['Date', 'Category', 'Price']].iterrows():
+
+        for index, row in games[['Date', 'Category', 'DisplayPrice']].iterrows():
             summary.append('|'.join(map(str, row.tolist())))
 
         yield {
@@ -90,7 +92,7 @@ def build_invoices(year, month, currency):
             'total': games['Price'].sum(),
             'amount_paid': games['Price'].sum() - games['Owes'].sum(),
             'amount_owed': games['Owes'].sum(),
-            'date': datetime.date.today()
+            'date': datetime.date.today().strftime(constants.date_format)
         }
 
 
@@ -112,7 +114,7 @@ if __name__ == '__main__':
     template_params = defaults.copy()
     template_params.update(params)
 
-    for invoice_params in build_invoices(int(args.year), int(args.month), template_params['currency']):
+    for invoice_params in build_invoices(int(args.year), int(args.month)):
         p = template_params.copy()
         p.update(invoice_params)
 

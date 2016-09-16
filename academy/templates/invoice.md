@@ -1,26 +1,24 @@
-#### {name} Bridge Group
+### {name} Bridge Group
+---
 
-###### Invoice #{invoice_number}
-> **Date**: {date} <br />
-> **Due Date**: {date}
+##### Invoice #{invoice_number}
+> **Name:** {director} <br />
+> **Contact:** {director_email} / {director_phone} <br />
+> **Date:** {date} <br />
+> **Due Date:** {date}
 
-###### From
->{director} <br />
->{director_email} / {director_phone} <br />
+##### Bill To
+> **Name:** {customer_name} <br />
 
-###### Client
->{customer_name} <br />
+##### Summary
 
-###### Summary
-
- Date     | Description          | Price ({currency})
+ Date     | Description          | Price
  -------- | -------------------- | -------
 {summary}
 
-###### Total
+##### Total
 > **Subtotal:** {currency}{sub_total} <br />
 > **Tax:** {currency}{tax} <br />
-> **Shipping:** {currency}{shipping} <br />
 > **Total:** {currency}{total} <br />
 > **Amount Paid:** {currency}{amount_paid} <br />
 > **Amount Owed:** {currency}{amount_owed} <br />
