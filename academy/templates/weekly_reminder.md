@@ -1,7 +1,7 @@
 
 Hello Everyone,
 
-#### {name} Bridge Group
+#### {name} Reminder
 
 Just a quick reminder about the bridge this _{day}_ at _{venue}_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
 

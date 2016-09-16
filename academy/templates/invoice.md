@@ -1,4 +1,4 @@
-### {name} Bridge Group
+### {name}
 ---
 
 ##### Invoice #{invoice_number}
