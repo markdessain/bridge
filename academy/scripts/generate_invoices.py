@@ -9,6 +9,8 @@ import numpy as np
 
 import constants
 
+from common import get_income_data
+
 
 def standard_invoice(template, template_params):
     with open('templates/%s.md' % template, 'r') as f:
@@ -29,19 +31,6 @@ def standard_invoice(template, template_params):
         f.write(email)
 
     return path
-
-
-def get_income_data():
-    df = pd.read_excel('data/accounts.xlsx', 'Income')
-    df = df[['ID', 'Date', 'Category', 'Name', 'Price', 'Paid', 'Description']]
-    df['Attendance'] = df['ID'].apply(lambda p: bool(p))
-    df['Paid'] = df['Paid'].apply(lambda p: True if p == 'Yes' else False)
-    df['Balance'] = df.apply(lambda row: row['Price'] if row['Paid'] else 0, axis=1)
-    df['Owes'] = df.apply(lambda row: row['Price'] if not row['Paid'] else 0, axis=1)
-    df['ID'] = df['ID'].apply(lambda i: '%010d' % i)
-    df['Year'] = df['Date'].apply(lambda d: d.year)
-    df['Month'] = df['Date'].apply(lambda d: d.month)
-    return df
 
 
 def create_pivot_table(data):
