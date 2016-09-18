@@ -15,6 +15,9 @@ date_format = '%a %d %b %Y'
 director = 'Mark Dessain'
 director_email = ''
 director_phone = ''
+
+director_first = 'I'
+
 currency = '&pound;'
 
 price = '&pound;10'
