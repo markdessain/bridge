@@ -11,10 +11,10 @@ from utils import process
 if __name__ == '__main__':
 
 
-    c = Recognition()
-    c.train()
-
     db = DeckBuilder()
+
+    c = Recognition(db)
+    c.train()
     webcam = Webcam()
 
 

@@ -44,7 +44,7 @@ class DeckBuilder:
             self.deck = []
 
     def save(self):
-        print(self.deck[0:2])
-        print(self.deck[2:4])
-        print(self.deck[4:6])
-        print(self.deck[6:8])
+        print(self.deck[0:13])
+        print(self.deck[13:26])
+        print(self.deck[26:39])
+        print(self.deck[39:52])
