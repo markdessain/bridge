@@ -1,22 +1,15 @@
-from collections import Counter
 
 
 class DeckBuilder:
 
     def __init__(self):
-        self.counter = Counter()
         self.deck = []
 
-    def update(self):
-        if sum(self.counter.values()) == 10:
-            print(self.counter)
-            self.counter.clear()
+    def undo(self):
+        if self.deck:
+            self.deck.pop()
 
-    def add(self, card):
-        self.counter[card] += 1
-
-    def select(self):
-        card = self.counter.most_common()[0][0]
+    def select(self, card):
         if card not in self.deck:
             self.deck.append(card)
 
@@ -40,7 +33,6 @@ class DeckBuilder:
             print('*** Hand 4 ***')
             print('**************')
             self.save()
-            self.counter.clear()
             self.deck = []
 
     def save(self):
