@@ -1,6 +1,7 @@
 import cv2
 import glob
 import numpy as np
+import imutils
 
 
 ###############################################################################
@@ -49,6 +50,7 @@ def get_almost_square_contours(image, count):
             box = np.int0(box)
 
             results.append((contour))
+            # results.append(box)
 
     return results
 
@@ -72,30 +74,47 @@ def warp_contour_from_image(image, contour, size):
     return warp
 
 
-def process(image):
-    """ Takes the first largest contour and will display a warped
-    version of it in a 400x400 square.
-    """
+def is_red(image, size=300):
     thresh = create_thresh(image)
     contours = get_almost_square_contours(thresh, 1)
-    # add_contours(image, contours)
 
-    # print(len(contours))
     if contours:
 
-        try:
-            warp = warp_contour_from_image(image, contours[0], 400)
-            warp_thresh = create_thresh(warp)
-            # warp_contours = get_almost_square_contours(warp_thresh, 100)
-            # print(len(warp_contours))
-            # add_contours(warp, warp_contours)
-            return warp_thresh
-        except:
-            print('Failed to Warp')
-            return thresh
-    else:
-        print('No Contours')
-        return thresh
+        contour = contours[0]
+        x,y,w,h = cv2.boundingRect(contour)
+        card = image[y:y+40,x+0:x+80]
+
+        lower = np.array([17, 15, 100], dtype = "uint8")
+        upper = np.array([90, 96, 255], dtype = "uint8")
+        mask = cv2.inRange(card, lower, upper)
+        w = (cv2.countNonZero(mask))
+        t = (len(mask.flatten()))
+
+        # cv2.imshow("images_%s" % x, np.hstack([mask]))
+
+        # print(w, y, w/t)
+        if w/t > 0.075:
+            return True
+
+    return False
+
+
+# def find_template(gray, templates):
+#
+#     found = None
+#
+#     for value, template in templates.items():
+#
+#         edged = cv2.Canny(gray, 50, 200)
+#         result = cv2.matchTemplate(edged, template, cv2.TM_CCOEFF)
+#         (_, maxVal, _, maxLoc) = cv2.minMaxLoc(result)
+#
+#         # if we have found a new\ maximum correlation value, then ipdate
+#         # the bookkeeping variable
+#         if found is None or maxVal > found[0]:
+#             found = (maxVal, maxLoc, value)
+#
+#     return found
 
 
 def image_diff(image1, image2):
