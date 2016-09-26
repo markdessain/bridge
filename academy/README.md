@@ -12,3 +12,4 @@ The resources are split into a few categories
 
 - [results.md](templates/results.md)
 - [weekly_reminder.md](templates/weekly_reminder.md)
+- [invoice.md](templates/invoice.md)
