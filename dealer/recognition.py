@@ -3,7 +3,7 @@ import multiprocessing
 
 import cv2
 
-from utils import image_diff, score_diff, find_template, create_thresh, is_red
+from utils import image_diff, score_diff, create_thresh, is_red
 
 from vision import Trainer
 
