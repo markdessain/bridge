@@ -1,6 +1,6 @@
 import cv2
 
-from utils import create_thresh, get_almost_square_contours, warp_contour_from_image
+from utils import create_thresh, get_almost_square_contours, warp_contour_from_image, resize_into_square
 
 
 class Vision:
@@ -11,6 +11,7 @@ class Vision:
     def update(self):
         self.frame = self.get_frame()
         self.frame_thresh = create_thresh(self.frame)
+        self.preview_thresh = resize_into_square(self.frame_thresh, 300)
 
         self.found_card, self.card, self.card_thresh = self.get_card()
 
@@ -45,7 +46,7 @@ class Webcam(Vision):
         if self.found_card:
             return self.card_thresh
         else:
-            return self.frame_thresh
+            return self.preview_thresh
 
 
 class Trainer(Vision):

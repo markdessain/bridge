@@ -74,6 +74,10 @@ def warp_contour_from_image(image, contour, size):
     return warp
 
 
+def resize_into_square(image, size):
+    return cv2.resize(image, (size, size))
+
+
 def is_red(image, size=300):
     thresh = create_thresh(image)
     contours = get_almost_square_contours(thresh, 1)
