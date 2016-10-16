@@ -5,7 +5,7 @@ import imutils
 
 
 ###############################################################################
-# Utility code from
+# rectify code from
 # http://git.io/vGi60A
 # Thanks to author of the sudoku example for the wonderful blog posts!
 ###############################################################################
@@ -32,7 +32,7 @@ def create_thresh(image):
     return thresh
 
 
-def get_almost_square_contours(image, count):
+def get_contours(image, count):
     im2, contours, hierarchy = cv2.findContours(image.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     contours = sorted(contours, key=cv2.contourArea,reverse=True)[0:count]
 
@@ -50,7 +50,6 @@ def get_almost_square_contours(image, count):
             box = np.int0(box)
 
             results.append((contour))
-            # results.append(box)
 
     return results
 
@@ -80,7 +79,7 @@ def resize_into_square(image, size):
 
 def is_red(image, size=300):
     thresh = create_thresh(image)
-    contours = get_almost_square_contours(thresh, 1)
+    contours = get_contours(thresh, 1)
 
     if contours:
 

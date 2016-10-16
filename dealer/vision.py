@@ -1,6 +1,6 @@
 import cv2
 
-from utils import create_thresh, get_almost_square_contours, warp_contour_from_image, resize_into_square
+from utils import create_thresh, get_contours, warp_contour_from_image, resize_into_square
 
 
 class Vision:
@@ -20,7 +20,7 @@ class Vision:
 
     def get_card(self):
         try:
-            contours = get_almost_square_contours(self.frame_thresh, 1)
+            contours = get_contours(self.frame_thresh, 1)
 
             if contours:
                 card = warp_contour_from_image(self.frame, contours[0], 300)
