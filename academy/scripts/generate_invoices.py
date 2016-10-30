@@ -13,7 +13,7 @@ from common import get_income_data
 
 
 def standard_invoice(template, template_params):
-    with open('templates/%s.md' % template, 'r') as f:
+    with open('markdown_templates/%s.md' % template, 'r') as f:
         lines = ''.join(f.readlines())
         email = lines.format(**template_params)
 

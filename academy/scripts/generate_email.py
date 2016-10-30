@@ -9,7 +9,7 @@ import constants
 
 
 def standard_email(template, template_params):
-    with open('templates/%s.md' % template, 'r') as f:
+    with open('markdown_templates/%s.md' % template, 'r') as f:
         lines = ''.join(f.readlines())
         email = lines.format(**template_params)
 
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     template_params = defaults.copy()
     template_params.update(params)
 
-    if args.template in ('results', 'new_venue'):
+    if args.template in ('results'):
         func = results_email
     else:
         func = standard_email
