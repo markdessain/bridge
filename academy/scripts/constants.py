@@ -2,9 +2,9 @@ from datetime import datetime, date, time, timedelta
 
 name = 'Holland Park Bridge Group'
 
-venue = 'The Castle'
-venue_website = 'https://www.castlehollandpark.co.uk/'
-venue_map = 'https://goo.gl/maps/AabBbGnSKvq'
+venue = 'The Walmer Castle'
+venue_website = 'https://www.walmercastlenottinghill.co.uk/'
+venue_map = 'https://goo.gl/maps/QcMgQpUAovE2'
 
 start = time(19, 15)
 bridge_start = (datetime.combine(date.today(), start) + timedelta(minutes=15)).time()
