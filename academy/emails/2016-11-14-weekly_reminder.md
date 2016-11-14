@@ -1,6 +1,10 @@
 
 Hello Everyone,
 
+As you will all be aware we are getting towards the end of the year, and into the Christmas Season. We have already been informed that there will be other groups joining us this week and over the next few weeks in the space upstairs. A knock on effect is that we will be unlikely to adjust the music volume levels and unfortunately we should expect the room to be noisier than it has been the past few weeks. 
+
+We will still have tables reserved for us so you will all still be welcome to come and play as usual.
+
 #### Holland Park Bridge Group Reminder
 
 Just a quick reminder about the bridge this _Wednesday_ at _The Walmer Castle_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
