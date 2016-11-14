@@ -1,7 +1,7 @@
 
 Hello Everyone,
 
-As you will all be aware we are getting towards the end of the year, and into the Christmas Season. We have already been informed that there will be other groups joining us week and over the next few weeks in the space upstairs. A knock on effect is that we will be unable to adjust the music volume levels and regrettably we should expect the room to be noisier than it has been the past few weeks. 
+As you will all be aware we are getting towards the end of the year, and into the Christmas Season. We have already been informed that there will be other groups joining us this week and over the next few weeks in the space upstairs. A knock on effect is that we will be unlikely to adjust the music volume levels and unfortunately we should expect the room to be noisier than it has been the past few weeks. 
 
 We will still have tables reserved for us so you will all still be welcome to come and play as usual.
 
