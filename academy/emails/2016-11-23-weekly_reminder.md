@@ -1,7 +1,7 @@
 
 Hello Everyone,
 
-Sorry for the slightly late reminder, bridge will be on as usual although I will be unavalible this week - thank you Kit for stepping in. Details are below as usual and see you all next week.
+Sorry for the slightly late reminder, bridge will be on as usual although I will be unavailable this week - thank you Kit for stepping in. Details are below as usual and see you all next week.
 
 #### Holland Park Bridge Group Reminder
 
