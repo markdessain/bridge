@@ -14,7 +14,7 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 
 > Venue: The Walmer Castle - [website](https://www.walmercastlenottinghill.co.uk/) / [map](https://goo.gl/maps/QcMgQpUAovE2)
 
-> Date: Wednesday 22nd Febuary
+> Date: Wednesday 22nd February
 
 > Start: 19:15 (Bridge begins at 19:30)
 
