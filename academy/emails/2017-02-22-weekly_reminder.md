@@ -1,8 +1,7 @@
 
 Hello Everyone,
 
-Just a quick note, as there are Tube Strikes effecting the [Central Line](https://tfl.gov.uk/campaign/tube-strike?cid=tube-strike) I will ask that we
-finish just before 10 so I can make it back home without any problems.
+Just a quick note, as there are Tube Strikes effecting the [Central Line](https://tfl.gov.uk/campaign/tube-strike?cid=tube-strike) I will ask that we finish just before 10 so anyone who needs the Central Line can make it back home without any problems.
 
 #### Holland Park Bridge Group Reminder
 
