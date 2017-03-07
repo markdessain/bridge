@@ -1,8 +1,7 @@
 
 Hello Everyone,
 
-Just a quick note, as there are Tube Strikes effecting the [Central Line](https://tfl.gov.uk/campaign/tube-strike?cid=tube-strike) I will ask that we
-finish just before 10 so I can make it back home without any problems.
+Just a quick note, as there are Tube Strikes effecting the [Central Line](https://tfl.gov.uk/campaign/tube-strike?cid=tube-strike) I will ask that we finish just before 10 so anyone who needs the Central Line can make it back home without any problems.
 
 #### Holland Park Bridge Group Reminder
 
@@ -14,7 +13,7 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 
 > Venue: The Walmer Castle - [website](https://www.walmercastlenottinghill.co.uk/) / [map](https://goo.gl/maps/QcMgQpUAovE2)
 
-> Date: Wednesday 22nd Febuary
+> Date: Wednesday 22nd February
 
 > Start: 19:15 (Bridge begins at 19:30)
 
