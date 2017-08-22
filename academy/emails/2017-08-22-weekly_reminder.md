@@ -1,10 +1,6 @@
 
 Hello Everyone,
 
-I missed out sending the reminder email for this week and the results from last week. Just to confirm that Bridge is on as usual this evening and that the results for last week can be found [here](http://www.bridgewebs.com/cgi-bin/bwoi/bw.cgi?pid=display_rank&msec=1&sessid=654309279175559&event=20170809_1&wd=1&club=ruffclub).
-
------
-
 #### Holland Park Bridge Group Reminder
 
 Just a quick reminder about the bridge this _Wednesday_ at _The Walmer Castle_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
