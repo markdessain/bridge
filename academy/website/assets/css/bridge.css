@@ -68,8 +68,8 @@
 
 
   .diagram {
-    width: 96%;
-    padding: 2%;
+    /*width: 70%;*/
+    /*margin: 0 0 0 -50px;*/
   }
 
   .diagram .header{
@@ -81,7 +81,7 @@
   }
 
   .diagram  .hand {
-    width: 170px;
+    width: 270px;
   }
 
   .diagram  .south , .diagram  .north {
