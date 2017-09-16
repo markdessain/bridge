@@ -49,7 +49,7 @@
 
         	body {
         		background-color: #183026;
-        		background-image: url("https://html5up.net/uploads/demos/overflow/images/bg.jpg");
+        		background-image: url("../../images/bg.jpg");
         		background-repeat: no-repeat;
         		background-size: cover;
         		background-position: top left, center 0;
@@ -158,9 +158,15 @@
 
 		}
 
+		html, body {
+		  overflow-x: hidden;
+		}
 
 		@media screen and (max-width: 900px) {
 
+			body {
+				font-size: 12pt;
+			}
 
 			  .container.left .side {
 			    left: 0;
@@ -188,12 +194,12 @@
 		   }
 
 			.container {
-				width: 80%;
+				width: 90%;
+				padding: 0;
 			}
 
 
 			.container {
-				padding: 0;
 			}
 
 				.container .side {
@@ -207,6 +213,8 @@
 						position: relative;
 						height: auto;
 						width: 100%;
+						padding:0;
+						margin: 0 0 -10px 0;
 					}
 
 				.container section {
