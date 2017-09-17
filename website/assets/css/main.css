@@ -124,8 +124,14 @@
    padding-right: 3em;
  }
 
+
+  .dark {
+    color: #fff;
+    background-color: #172627;
+  }
+
  .green {
-   background-color: #09a583;
+   background-color: #489c71;
  }
 
  .green a {
