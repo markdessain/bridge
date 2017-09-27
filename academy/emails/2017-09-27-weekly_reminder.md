@@ -1,6 +1,8 @@
 
 Hello Everyone,
 
+A little later that usual, but a reminder that bridge will be on this evening.
+
 #### Holland Park Bridge Group Reminder
 
 Just a quick reminder about the bridge this _Wednesday_ at _The Walmer Castle_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
