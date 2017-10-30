@@ -1,6 +1,6 @@
 from datetime import datetime, date, time, timedelta
 
-name = 'Holland Park Bridge Group'
+name = ' Walmer Castle Bridge Group'
 
 venue = 'The Walmer Castle'
 venue_website = 'https://www.walmercastlenottinghill.co.uk/'
