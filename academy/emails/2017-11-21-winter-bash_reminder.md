@@ -3,7 +3,7 @@ Hello Everyone,
 
 #### End of year bridge bash - Saturday 9th December from 6pm at the Young Chelsea Bridge Club
 
-I just wanted to let you all know that I will be hosting an end of year bridge bash along with Ned Paul, Victor Lesk and Kit Jackson on Saturday 9th December. You are all invited and will be welcome to attend, more details can be found [here](https://www.brianbridge.net/party2017/).
+I just wanted to let you all know that I will be jointly hosting an end of year bridge bash along with Ned Paul, Victor Lesk and Kit Jackson on Saturday 9th December. You are all invited and will be welcome to attend, more details can be found [here](https://www.brianbridge.net/party2017/).
 
 If you're interested or want to hear more please let me know.
 
