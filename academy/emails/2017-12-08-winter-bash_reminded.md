@@ -17,7 +17,7 @@ Schedule for over the new year and into January.
 - 20th December - Please can you email me if you are interested in playing. I am still around in London and will run a game if we have enough interest. I will email out to confirm.
 - 27th December - No Bridge
 - 3rd January - No Bridge
-- 10rd January - No Bridge
+- 10th January - No Bridge
 - 17th January - Back to usual
 
 Regards,
