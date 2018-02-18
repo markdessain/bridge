@@ -1,5 +1,11 @@
-from ui import UI
+from ui import LiveUI, CatpureUI
 
+from model import features, train
 
 if __name__ == '__main__':
-    UI().show()
+
+    # CatpureUI().show()
+    # features()
+    # train()
+
+    LiveUI().show()
