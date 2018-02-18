@@ -17,32 +17,7 @@ class Controller:
 
         self.counter = []
 
-        ranks = [
-            'A',
-            'K',
-            'Q',
-            'J',
-            'T',
-            '9',
-            '8',
-            '7',
-            '6',
-            '5',
-            '4',
-            '3',
-            '2',
-        ]
-
-        suits = [
-            # 'H',
-            'S',
-            # 'D',
-            # 'C'
-        ]
-        classes = sum([['%s%s' % (rank, suit) for rank in ranks] for suit in suits], [])
-
-        self.model = Model(classes)
-        self.model.train()
+        self.model = Model.load()
 
         self.auto = False
 

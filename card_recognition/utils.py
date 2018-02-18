@@ -28,7 +28,7 @@ def rectify(h):
 def create_thresh(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blur = cv2.GaussianBlur(gray,(5,5),1000)
-    flag, thresh = cv2.threshold(blur, 140, 255, cv2.THRESH_BINARY)
+    flag, thresh = cv2.threshold(blur, 180, 255, cv2.THRESH_BINARY)
     return thresh
 
 

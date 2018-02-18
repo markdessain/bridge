@@ -11,7 +11,7 @@ class Vision:
     def update(self):
         self.frame = self.get_frame()
         self.frame_thresh = create_thresh(self.frame)
-        self.preview_thresh = resize_into_square(self.frame_thresh, 100)
+        self.preview_thresh = resize_into_square(self.frame_thresh, 150)
 
         self.found_card, self.card, self.card_thresh = self.get_card()
 
@@ -24,11 +24,11 @@ class Vision:
 
             if contours:
                 card = warp_contour_from_image(self.frame, contours[0], 300)
+                card = card[0:40, 0:90]
                 card_thresh = create_thresh(card)
 
-                size = 100
-                card = cv2.resize(card, (size, size))
-                card_thresh = cv2.resize(card_thresh, (size, size))
+                # card = cv2.resize(card, (45, 20))
+                # card_thresh = cv2.resize(card_thresh, (45, 20))
                 return True, card, card_thresh
         except Exception as e:
             pass
@@ -49,10 +49,12 @@ class Webcam(Vision):
 
     def preview(self):
         if self.found_card:
-            return self.card_thresh
+            p = self.card_thresh
         else:
-            return self.preview_thresh
+            p = self.preview_thresh
 
+        return p
+        # return cv2.resize(p, (45, 20))
 
 class Trainer(Vision):
 

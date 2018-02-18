@@ -1,9 +1,11 @@
+import pickle
 from sklearn.neural_network import MLPClassifier
+
 
 class Model:
 
     def __init__(self, classes):
-        self.mlp = MLPClassifier(hidden_layer_sizes=(400,), max_iter=400, epsilon=0.0001)
+        self.mlp = MLPClassifier(hidden_layer_sizes=(500,), max_iter=400, epsilon=0.0001)
         self.classes = classes
         self.first_time = True
 
@@ -37,13 +39,24 @@ class Model:
                 trainer = Trainer(frame)
                 trainer.update()
                 output = trainer.card_thresh
-                img = Image.fromarray(output)
-                img.save('./tmp/clean/%s' % card.split('/')[-1])
 
-                output = list(output.flatten())
-                f.write('%s|%s' % (value, output))
-                f.write('\n')
+                try:
+                    img = Image.fromarray(output)
+                    img.save('./tmp/clean/%s' % card.split('/')[-1])
 
-                self.partial_fit([output], [value])
+                    output = list(output.flatten())
+                    f.write('%s|%s' % (value, output))
+                    f.write('\n')
+
+                    self.partial_fit([output], [value])
+                except:
+                    print(card)
 
         self.describe()
+
+    def save(self):
+        pickle.dump(self, open('./tmp/model.pkl', 'wb'))
+
+    @staticmethod
+    def load():
+        return pickle.load(open('./tmp/model.pkl', 'rb'))
