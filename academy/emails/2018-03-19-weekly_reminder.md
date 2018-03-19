@@ -1,7 +1,7 @@
 
 Hello Everyone,
 
-There has been UEFA Champions League football matches on the TVs upstairs over the past few weeks but I had confimration that there will be **no games** showing this week.
+There has been UEFA Champions League football matches on the TVs upstairs over the past few weeks but I had confirmation that there will be **no games** showing this week.
 
 ####  Walmer Castle Bridge Group Reminder
 
