@@ -1,0 +1,33 @@
+Hello Everyone,
+
+Thanks for everyone who attended last week, I appreciate that it was a rather noisy game with the football been on at the same time. Thankfully today there is no football matches taking place so it should be a quieter evening. That been said next week The Semi-finals are taking place on Wednesday (and England could be playing!), so I am going to cancel the Bridge.
+
+I will also be misisng this week as I have a cold, but Ned Paul has offered to step in to host this evening. See you all in a few weeks.
+
+####  Walmer Castle Bridge Group Reminder
+
+Just a quick reminder about the bridge this _Wednesday_ at _The Walmer Castle_. As usual it will continue to be a gentle duplicate where everyone is welcome and I will be available throughout the evening to answer any bridge related questions.
+
+Please feel free to attend even if you do not have a partner, we will make sure to pair you up with another player before we start.
+
+#### Details
+
+> Venue: The Walmer Castle - [website](https://www.walmercastlenottinghill.co.uk/) / [map](https://goo.gl/maps/QcMgQpUAovE2)
+
+> Date: Wednesday 27th June
+
+> Start: 19:15 (Bridge begins at 19:30)
+
+> End: 22:15
+
+> Price: &pound;10
+
+> Director: Ned Paul
+
+The scores will be recorded using BriAn Bridge and it would be really useful if players who have mobile phones could download the app - [ios](https://itunes.apple.com/gb/app/free-brian-bridge-client/id576769349?mt=8) / [android](https://play.google.com/store/apps/details?id=freebrian.com&hl=en_GB).
+
+Please do contact me if you have any questions.
+
+Regards,
+
+Mark Dessain
