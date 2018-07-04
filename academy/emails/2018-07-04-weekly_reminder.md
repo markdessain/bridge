@@ -1,8 +1,8 @@
 Hello Everyone,
 
-Thanks for everyone who attended last week, I appreciate that it was a rather noisy game with the football been on at the same time. Thankfully today there is no football matches taking place so it should be a quieter evening. That been said next week The Semi-finals are taking place on Wednesday (and England could be playing!), so I am going to cancel the Bridge.
+Thanks for everyone who attended last week, I appreciate that it was a rather noisy game with the football been on at the same time. Thankfully today there is no football matches taking place so it should be a quieter evening. That been said next week The Semi-finals are taking place on Wednesday (and England could be playing!), so I am going to cancel the Bridge next week.
 
-I will also be misisng this week as I have a cold, but Ned Paul has offered to step in to host this evening. See you all in a few weeks.
+I will also be missing this week as I have a cold, but Ned Paul has offered to step in to host this evening. See you all in a few weeks.
 
 ####  Walmer Castle Bridge Group Reminder
 
@@ -14,7 +14,7 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 
 > Venue: The Walmer Castle - [website](https://www.walmercastlenottinghill.co.uk/) / [map](https://goo.gl/maps/QcMgQpUAovE2)
 
-> Date: Wednesday 27th June
+> Date: Wednesday 4th July
 
 > Start: 19:15 (Bridge begins at 19:30)
 
