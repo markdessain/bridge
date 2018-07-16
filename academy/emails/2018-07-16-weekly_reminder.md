@@ -18,7 +18,7 @@ Please feel free to attend even if you do not have a partner, we will make sure 
 
 > Price: &pound;10
 
-> Director: Ned Paul
+> Director: Mark Dessain
 
 The scores will be recorded using BriAn Bridge and it would be really useful if players who have mobile phones could download the app - [ios](https://itunes.apple.com/gb/app/free-brian-bridge-client/id576769349?mt=8) / [android](https://play.google.com/store/apps/details?id=freebrian.com&hl=en_GB).
 
