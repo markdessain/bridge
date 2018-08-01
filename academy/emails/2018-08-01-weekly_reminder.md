@@ -1,6 +1,6 @@
 Hello Everyone,
 
-I will be away so this week will see Ned hosting the evening, so everything will continue to run as usual.
+I am still away so this week will see Ned hosting the evening, so everything will continue to run as usual.
 
 ####  Walmer Castle Bridge Group Reminder
 
